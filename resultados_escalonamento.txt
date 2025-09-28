@@ -1,0 +1,104 @@
+--- Simula��o de Algoritmos de Escalonamento ---
+
+Resultados para o Algoritmo: FCFS
+------------------------------
+Ordem de Execução: P1 -> P2 -> P3 -> P4 -> P5
+
+Métricas Individuais:
+Processo  Tempo de Espera     Tempo de Retorno    
+P1        0                   5                   
+P2        3                   6                   
+P3        4                   12                  
+P4        11                  17                  
+P5        11                  19                  
+
+Métricas Gerais:
+Tempo Médio de Espera: 5.80
+Tempo Médio de Retorno: 11.80
+-------
+
+Resultados para o Algoritmo: SJF (Não-Preemptivo)
+------------------------------
+Ordem de Execução: P1 -> P2 -> P4 -> P3 -> P5
+
+Métricas Individuais:
+Processo  Tempo de Espera     Tempo de Retorno    
+P1        0                   5                   
+P2        3                   6                   
+P3        10                  18                  
+P4        3                   9                   
+P5        11                  19                  
+
+Métricas Gerais:
+Tempo Médio de Espera: 5.40
+Tempo Médio de Retorno: 11.40
+-------
+
+Resultados para o Algoritmo: Round Robin (Quantum=4)
+------------------------------
+Ordem de Execução: P1 -> P2 -> P3 -> P4 -> P5
+
+Métricas Individuais:
+Processo  Tempo de Espera     Tempo de Retorno    
+P1        7                   12                  
+P2        2                   5                   
+P3        12                  20                  
+P4        15                  21                  
+P5        11                  19                  
+
+Métricas Gerais:
+Tempo Médio de Espera: 9.40
+Tempo Médio de Retorno: 15.40
+-------
+
+Resultados para o Algoritmo: Priority Scheduling (Não-Preemptivo)
+------------------------------
+Ordem de Execução: P1 -> P2 -> P4 -> P5 -> P3
+
+Métricas Individuais:
+Processo  Tempo de Espera     Tempo de Retorno    
+P1        0                   5                   
+P2        3                   6                   
+P3        18                  26                  
+P4        3                   9                   
+P5        3                   11                  
+
+Métricas Gerais:
+Tempo Médio de Espera: 5.40
+Tempo Médio de Retorno: 11.40
+-------
+
+Resultados para o Algoritmo: Priority Scheduling - Multiple Queues
+------------------------------
+Ordem de Execução: P1 -> P2 -> P4 -> P5 -> P3
+
+Métricas Individuais:
+Processo  Tempo de Espera     Tempo de Retorno    
+P1        0                   5                   
+P2        3                   6                   
+P3        18                  26                  
+P4        3                   9                   
+P5        3                   11                  
+
+Métricas Gerais:
+Tempo Médio de Espera: 5.40
+Tempo Médio de Retorno: 11.40
+-------
+
+Resultados para o Algoritmo: Lottery Scheduling
+------------------------------
+Ordem de Execução: P1 -> P2 -> P3 -> P1 -> P3 -> P2 -> P1 -> P4 -> P5 -> P4 -> P1 -> P5 -> P4 -> P5 -> P4 -> P5 -> P3
+
+Métricas Individuais:
+Processo  Tempo de Espera     Tempo de Retorno    
+P1        9                   14                  
+P2        3                   6                   
+P3        18                  26                  
+P4        10                  16                  
+P5        5                   13                  
+
+Métricas Gerais:
+Tempo Médio de Espera: 9.00
+Tempo Médio de Retorno: 15.00
+-------
+
